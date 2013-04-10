@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2012 by Your Company
+
+
+# these should not be edited
+name: titanium-opencv
+moduleid: com.hidef.opencv
+guid: 9fc04274-04d6-4d30-a2f2-0b51a941d75c
+platform: iphone
+minsdk: 1.8.2

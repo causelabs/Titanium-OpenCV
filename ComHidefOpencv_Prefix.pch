@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////////////////////////
+// Add this new section BEFORE the #import statements for UIKit and Foundation
+#ifdef __cplusplus
+#import <OpenCV/opencv2/opencv.hpp>
+#endif
+
+// Existing #import statements
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
